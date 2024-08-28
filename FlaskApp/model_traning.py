@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 import pickle
 
-file_path = 'housepriceprediction.csv'
+file_path = 'house_price_prediction.csv'
 data = pd.read_csv(file_path)
 
 data = data.drop(columns=['Unnamed: 0'])
